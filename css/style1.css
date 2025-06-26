@@ -1,0 +1,32 @@
+ body{
+            /*background-image: url("images/globeicon.jpg");
+            background-repeat: repeat-y;
+            background-color:#4058AD;
+            */
+            /*background:url("images/globeicon.jpg") repeat-y #4058AD;
+*/
+
+            /* 256 0-255 216 0-215*/
+
+        }
+        
+        td{
+            background-color: blue;
+        }
+        .color{
+            background-color:greenyellow;
+
+        }
+        td{
+            background-color: aqua;
+            
+        }
+        .x{
+            background-color: aqua;
+            font-size: 40px;
+            color:red;
+            
+        }
+        #fourth{
+            background-color: aquamarine;
+        }

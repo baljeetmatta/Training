@@ -1,32 +1,37 @@
- body{
-            /*background-image: url("images/globeicon.jpg");
-            background-repeat: repeat-y;
-            background-color:#4058AD;
-            */
-            /*background:url("images/globeicon.jpg") repeat-y #4058AD;
-*/
+/* div{
+    background-color: aqua;
+    margin:10px;
+    padding:10px;
+    border:4px solid red;
+    border-radius: 5px;
+    box-shadow: 3px 6px lightblue;
+} */
+#container div{
+    background-color: antiquewhite;
+    margin:10px;
+    float:left;
 
-            /* 256 0-255 216 0-215*/
+}
+#container::after{
+    clear:both;
+    display: table;
+    content: "";
+}
+.nav > a{
+    text-decoration: none;
+    color:red;
+}
+.myflex {
+    display: flex;
+    column-gap: 10px;
+    row-gap: 5px;;
+    flex-direction: row;
 
-        }
-        
-        td{
-            background-color: blue;
-        }
-        .color{
-            background-color:greenyellow;
+    
 
-        }
-        td{
-            background-color: aqua;
-            
-        }
-        .x{
-            background-color: aqua;
-            font-size: 40px;
-            color:red;
-            
-        }
-        #fourth{
-            background-color: aquamarine;
-        }
+}
+.myflex div{
+    padding:10px;
+    background-color:lightgrey;
+    
+}
